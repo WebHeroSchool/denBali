@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'pt_serif';
+    scr: url('PTSerif-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face { 
+    font-family: "MuseoSansCyrl300";
+    src: url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.eot");
+    src: url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.woff") format("woff"),
+    url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
