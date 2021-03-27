@@ -1,1 +1,5 @@
-.title {font-family: pt_serif, MuseoSansCyrl300}
+
+.header,
+.main-section {
+    font-family: MuseoSansCyrl300;
+}
