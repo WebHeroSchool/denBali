@@ -1,5 +1,6 @@
 
 .header,
-.main-section {
+.main-section, 
+.main__button {
     font-family: MuseoSansCyrl300;
 }
