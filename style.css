@@ -4,3 +4,98 @@
 .main__button {
     font-family: MuseoSansCyrl300;
 }
+html {
+    background-image: url('img/fon.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ .main-section {
+	margin: auto;
+}
+.wrapper {
+	margin: auto;
+	width: 80%;
+}
+.header {
+	padding: 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7.5%;
+}
+.logo {
+    width: 146px;
+    height: 55px;
+    top: 1px;
+    background: url('img/logo.svg');
+    position: relative;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.menu__item {
+    position: relative;
+    margin: 9px 12px;
+    font: 300 19px/15px MuseoSansCyrl300;
+    color: #F8EEE4;
+    text-decoration: none;
+    transition: opacity .5s;
+    
+}
+.bali__title {
+    font: 700 280px/371px pt_serif;
+    width: 122px;
+    height: 1px;
+    opacity: 38%;
+    color: #F8EEE4;
+    background-blend-mode: overlay;
+    text-align: center;
+}
+.indonesia__title {
+    font: 700 98px/130px pt_serif;
+    width: 460px;
+    height: 123px;
+    padding-top: ;
+    padding-left: 106px;
+    background-blend-mode: overlay;
+    color: #F8EEE4;
+}
+.main-content__title {
+    font: 700 23px/23px MuseoSansCyrl300;
+    width: 546px;
+    height: 55px;
+    padding-top: 40px;
+    padding-left: 44px;
+    color: #F8EEE4;
+}
+.main__button {
+    font: 700 27px/13px MuseoSansCyrl300;
+    width: 243px;
+    height: 53px;
+    padding-top: 11px;
+    padding-left: 21px;
+    background: #D4BEA3;
+    color: #FFFFFF;
+    border-radius: 46px;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity .5s ease;
+}
+.main-content {
+    width: 318px;
+    height: 421px;
+    padding-top: 390px;
+    padding-top: 2%;
+    padding-left: 3%;
+    background: url('img/ris1.svg');
+    background: url('img/ris2.svg');
+    background: url('img/ris3.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
