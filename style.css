@@ -87,15 +87,7 @@ html {
     display: inline-block;
     transition: opacity .5s ease;
 }
-.main-content {
-    width: 318px;
-    height: 421px;
-    padding-top: 390px;
-    padding-top: 2%;
-    padding-left: 3%;
-    background: url('img/ris1.svg');
-    background: url('img/ris2.svg');
-    background: url('img/ris3.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
+.img {
+    text-align: right;
+    
 }
