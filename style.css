@@ -18,14 +18,17 @@ html {
 	margin: auto;
 }
 .wrapper {
-	margin: auto;
-	width: 80%;
+	/* margin: auto; */
+	/* width: 80%; */
+	margin-left: 200px;
 }
 .header {
-	padding: 0px 0px;
+	padding: 79px 0px;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 7.5%;
+	margin-bottom: 65.5px;
+	margin-right: 101px;
+	margin-top: 8px;
 }
 .logo {
     width: 146px;
@@ -37,60 +40,93 @@ html {
 .menu {
     display: flex;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 15px;
+    margin-left: 11px;
 }
 .menu__item {
     position: relative;
-    margin: 9px 12px;
-    font: 300 19px/15px MuseoSansCyrl300;
+    margin: 11px 18px;
+    font: 300 21px/14px MuseoSansCyrl300;
     color: #F8EEE4;
     text-decoration: none;
     transition: opacity .5s;
-    
+    letter-spacing: 1px;
 }
 .bali__title {
-    font: 700 280px/371px pt_serif;
-    width: 119px;
-    height: 1px;
-    opacity: 36%;
-    color: #F8EEE4;
+    font: 700 278px/343px 'PT Serif';
+    /* width: 115px; */
+    /* height: 21px; */
+    /* opacity: 36%; */
+    color: rgba(248, 238, 228, 0.4);
     background-blend-mode: overlay;
     display: flex;
+    margin: 1px;
+    margin-right: 22px;
+    position: relative;
 }
 .indonesia__title {
-    font: 700 98px/130px pt_serif;
-    width: 443px;
-    height: 76px;
-    padding-top: ;
-    padding-left: 104px;
+    font: 700 104px/55px 'PT Serif';
+    /* width: 444px; */
+    /* height: 76px; */
+    /* padding-top: 90px; */
+    /* padding-left: 84px; */
     background-blend-mode: overlay;
     color: #F8EEE4;
+    margin: 0;
 }
 .main-content__title {
-    font: 700 23px/23px MuseoSansCyrl300;
-    width: 546px;
-    height: 55px;
-    padding-top: 40px;
-    padding-left: 44px;
+    font: 700 19px/26px MuseoSansCyrl300;
+    /* width: 554px; */
+    padding-top: 8px;
+    padding-left: 20px;
     color: #F8EEE4;
+    max-width: 553px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 .main__button {
-    font: 700 27px/13px MuseoSansCyrl300;
-    width: 243px;
-    height: 53px;
-    padding-top: 11px;
-    padding-left: 21px;
+    font: 700 24px/14px MuseoSansCyrl300;
+    width: 296px;
+    height: 65px;
+    padding-top: 3px;
+    /* padding-right: 20px; */
+    /* padding-left: 2px; */
     background: #D4BEA3;
     color: #FFFFFF;
     border-radius: 46px;
     text-decoration: none;
     display: inline-block;
     transition: opacity .5s ease;
+    margin-left: 22px;
+    margin-top: 20px;
 }
 .main-section{
     display: flex;
+    justify-content: space-between;
 }
 .img {
-    text-align: right;
-    
+    /* padding-left: 129px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    /* width: 100%; */
+    padding-top: 81px;
+}
+.menu__item:last-child{
+    margin-right: 0;
+}
+.bali__title::before {
+    content: "Indonesia";
+    position: absolute;
+    bottom: 35px;
+    right: 5px;
+    font: 700 94px/55px 'PT Serif';
+    color: #F8EEE4;
+    letter-spacing: 2px;
+}
+.img img:nth-child(2) {
+    margin: 0px  33px;
+}
+body{
+    margin: 0;
 }
