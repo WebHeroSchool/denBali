@@ -4,7 +4,7 @@
 .main__button {
     font-family: MuseoSansCyrl300;
 }
-html {
+body {
     background-image: url('img/fon.svg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -13,7 +13,10 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin: 0;
+
 }
+
  .main-section {
 	margin: auto;
 }
@@ -127,6 +130,39 @@ html {
 .img img:nth-child(2) {
     margin: 0px  33px;
 }
-body{
-    margin: 0;
+
+@media(max-width: 1400px) {
+    body {
+        background-image: url('img/fon1366.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0;
+    }
+  .wrapper {width: 87%;}
+  .header {
+      margin-top: 11px;
+      padding: 50px 0px;
+      margin-bottom: 11px;
+      margin-right: 65px;
+      margin-left: -58px;
+  }
+  .logo {
+    width: 105px;
+    height: 40px;
+    background: url('img/logo1366.svg');
+  }
+  .menu__item {
+    position: relative;
+    margin: 12px 5px;
+    font: 300 18px/14px MuseoSansCyrl300;
+    color: #F8EEE4;
+    text-decoration: none;
+    transition: opacity .5s;
+    letter-spacing: 2px;
+  }
 }
